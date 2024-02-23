@@ -1,0 +1,88 @@
+*
+{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: url("nature.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.container
+{
+    padding: 30px;
+    max-width: 700px;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(65deg,rgba(0, 255, 255,0.1),rgba(128, 0, 128,0));
+
+    -webkit-backdrop-filter: blur(5px);
+    padding: 20px ;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 64px 2px rgb(0, 0, 0);
+}
+.container h1
+{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.quiz h2
+{
+    border-top: 2px solid rgb(0, 0, 0);
+    margin-left: 15px;
+    padding: 5px;
+    font-size: 30px;
+    
+}
+.btn
+{
+    background: rgba(255,103,148, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    font-weight: bold;
+    /* font-weight: 600; */
+    color: #000000;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+    padding: 20px ;
+    font-size: 25px;
+    transition: all 0.9s;
+    
+}
+.btn:hover:not([disabled])
+{
+    background: black;
+    color: white;
+}
+#next-btn
+{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background: rgb(0, 255, 8);
+}
+.incorrect
+{
+    background: rgb(228, 40, 40);
+}
